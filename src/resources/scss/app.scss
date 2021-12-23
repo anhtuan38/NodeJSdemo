@@ -1,0 +1,111 @@
+@import "variables";
+@import "global";
+@import "login";
+
+h1 {
+  color: $red-color;
+  font-size: 25px;
+}
+h2 {
+  color: $red-color;
+}
+.card-item {
+  margin-top: 16px;
+}
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  padding: 10px 30px;
+  z-index: 1000;
+  top: 0;
+}
+
+.nav-item .active {
+  font-weight: bold;
+  color: $orange !important;
+  border-bottom: 3px solid $orange;
+}
+
+.nav-item a:hover {
+  color: $orange !important;
+}
+
+.list-item a:hover {
+  color: $orange;
+}
+
+.navbar-logo {
+  height: 30px;
+}
+
+.navbar-logo img {
+  height: 100%;
+}
+
+.login {
+  height: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  margin: 0px 15px;
+  border: 1px solid $orange;
+
+  .login-btn {
+    color: $orange;
+  }
+}
+.language {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  margin-right: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 372px;
+}
+
+.logo-shoppe {
+  cursor: pointer;
+}
+
+.facebook,
+.instagram {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #959595;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: #0288d1;
+}
+.instagram:hover {
+  background-color: #ba30a7;
+}
+.link-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.link-icon .icon {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.img-bocongthuong {
+  width: 170px;
+  cursor: pointer;
+}
+.img-bocongthuong img {
+  width: 100%;
+}

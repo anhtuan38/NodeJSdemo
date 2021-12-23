@@ -1,0 +1,93 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: $background;
+}
+
+.container {
+  max-width: 1500px !important;
+  margin: 0 auto !important;
+}
+
+
+.back-top {
+  position: fixed;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 50%;
+  background-color: #959595;
+  font-size: 30px;
+  bottom: 20px;
+  right: 20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+
+h1 {
+  margin: 0px;
+  color: #fff;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 15px;
+  color: #fff;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: inherit;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.text-orage {
+  color: $orange;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.text-lightblue {
+  font-style: bold !important;
+  color: $lightblue;
+}
+.text-line-through {
+  text-decoration:line-through !important;
+}
