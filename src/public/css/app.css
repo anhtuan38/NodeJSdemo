@@ -125,7 +125,8 @@ h2 {
   color: red; }
 
 .card-item {
-  margin-top: 16px; }
+  width: 300px;
+  margin: 16px; }
 
 .navbar {
   background-color: #fff;
